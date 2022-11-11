@@ -1,0 +1,411 @@
+﻿<Window x:Class="Romulus.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-x:Namespace:Romulus"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="800" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+
+        <!--top lettering-->
+        <TextBlock Text="a" Grid.Row="0" Grid.Column="1" FontWeight="Bold" FontSize="30" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="5" FontFamily="Times New Roman"></TextBlock>
+        <TextBlock Text="b" Grid.Row="0" Grid.Column="2" FontWeight="Bold" FontSize="30" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="5" FontFamily="Times New Roman"></TextBlock>
+        <TextBlock Text="c" Grid.Row="0" Grid.Column="3" FontWeight="Bold" FontSize="30" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="5" FontFamily="Times New Roman"></TextBlock>
+        <TextBlock Text="d" Grid.Row="0" Grid.Column="4" FontWeight="Bold" FontSize="30" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="5" FontFamily="Times New Roman"></TextBlock>
+        <TextBlock Text="e" Grid.Row="0" Grid.Column="5" FontWeight="Bold" FontSize="30" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="5" FontFamily="Times New Roman"></TextBlock>
+        <TextBlock Text="f" Grid.Row="0" Grid.Column="6" FontWeight="Bold" FontSize="30" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="5" FontFamily="Times New Roman"></TextBlock>
+        <TextBlock Text="g" Grid.Row="0" Grid.Column="7" FontWeight="Bold" FontSize="30" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="5" FontFamily="Times New Roman"></TextBlock>
+        <TextBlock Text="h" Grid.Row="0" Grid.Column="8" FontWeight="Bold" FontSize="30" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="5" FontFamily="Times New Roman"></TextBlock>
+
+        <!--bottom lettering-->
+        <TextBlock Text="a" Grid.Row="9" Grid.Column="1" FontWeight="Bold" FontSize="30" VerticalAlignment="top" HorizontalAlignment="Center" Margin="5" FontFamily="Times New Roman"></TextBlock>
+        <TextBlock Text="b" Grid.Row="9" Grid.Column="2" FontWeight="Bold" FontSize="30" VerticalAlignment="top" HorizontalAlignment="Center" Margin="5" FontFamily="Times New Roman"></TextBlock>
+        <TextBlock Text="c" Grid.Row="9" Grid.Column="3" FontWeight="Bold" FontSize="30" VerticalAlignment="top" HorizontalAlignment="Center" Margin="5" FontFamily="Times New Roman"></TextBlock>
+        <TextBlock Text="d" Grid.Row="9" Grid.Column="4" FontWeight="Bold" FontSize="30" VerticalAlignment="top" HorizontalAlignment="Center" Margin="5" FontFamily="Times New Roman"></TextBlock>
+        <TextBlock Text="e" Grid.Row="9" Grid.Column="5" FontWeight="Bold" FontSize="30" VerticalAlignment="top" HorizontalAlignment="Center" Margin="5" FontFamily="Times New Roman"></TextBlock>
+        <TextBlock Text="f" Grid.Row="9" Grid.Column="6" FontWeight="Bold" FontSize="30" VerticalAlignment="top" HorizontalAlignment="Center" Margin="5" FontFamily="Times New Roman"></TextBlock>
+        <TextBlock Text="g" Grid.Row="9" Grid.Column="7" FontWeight="Bold" FontSize="30" VerticalAlignment="top" HorizontalAlignment="Center" Margin="5" FontFamily="Times New Roman"></TextBlock>
+        <TextBlock Text="h" Grid.Row="9" Grid.Column="8" FontWeight="Bold" FontSize="30" VerticalAlignment="top" HorizontalAlignment="Center" Margin="5" FontFamily="Times New Roman"></TextBlock>
+
+        <!--left numbering-->
+        <TextBlock Text="1" Grid.Row="8" Grid.Column="0" FontWeight="Bold" FontSize="30" VerticalAlignment="center" HorizontalAlignment="right" Margin="5" FontFamily="Times New Roman"></TextBlock>
+        <TextBlock Text="2" Grid.Row="7" Grid.Column="0" FontWeight="Bold" FontSize="30" VerticalAlignment="center" HorizontalAlignment="right" Margin="5" FontFamily="Times New Roman"></TextBlock>
+        <TextBlock Text="3" Grid.Row="6" Grid.Column="0" FontWeight="Bold" FontSize="30" VerticalAlignment="center" HorizontalAlignment="right" Margin="5" FontFamily="Times New Roman"></TextBlock>
+        <TextBlock Text="4" Grid.Row="5" Grid.Column="0" FontWeight="Bold" FontSize="30" VerticalAlignment="center" HorizontalAlignment="right" Margin="5" FontFamily="Times New Roman"></TextBlock>
+        <TextBlock Text="5" Grid.Row="4" Grid.Column="0" FontWeight="Bold" FontSize="30" VerticalAlignment="center" HorizontalAlignment="right" Margin="5" FontFamily="Times New Roman"></TextBlock>
+        <TextBlock Text="6" Grid.Row="3" Grid.Column="0" FontWeight="Bold" FontSize="30" VerticalAlignment="center" HorizontalAlignment="right" Margin="5" FontFamily="Times New Roman"></TextBlock>
+        <TextBlock Text="7" Grid.Row="2" Grid.Column="0" FontWeight="Bold" FontSize="30" VerticalAlignment="center" HorizontalAlignment="right" Margin="5" FontFamily="Times New Roman"></TextBlock>
+        <TextBlock Text="8" Grid.Row="1" Grid.Column="0" FontWeight="Bold" FontSize="30" VerticalAlignment="center" HorizontalAlignment="right" Margin="5" FontFamily="Times New Roman"></TextBlock>
+
+        <!--right numbering-->
+        <TextBlock Text="1" Grid.Row="8" Grid.Column="9" FontWeight="Bold" FontSize="30" VerticalAlignment="center" HorizontalAlignment="left" Margin="5" FontFamily="Times New Roman"></TextBlock>
+        <TextBlock Text="2" Grid.Row="7" Grid.Column="9" FontWeight="Bold" FontSize="30" VerticalAlignment="center" HorizontalAlignment="left" Margin="5" FontFamily="Times New Roman"></TextBlock>
+        <TextBlock Text="3" Grid.Row="6" Grid.Column="9" FontWeight="Bold" FontSize="30" VerticalAlignment="center" HorizontalAlignment="left" Margin="5" FontFamily="Times New Roman"></TextBlock>
+        <TextBlock Text="4" Grid.Row="5" Grid.Column="9" FontWeight="Bold" FontSize="30" VerticalAlignment="center" HorizontalAlignment="left" Margin="5" FontFamily="Times New Roman"></TextBlock>
+        <TextBlock Text="5" Grid.Row="4" Grid.Column="9" FontWeight="Bold" FontSize="30" VerticalAlignment="center" HorizontalAlignment="left" Margin="5" FontFamily="Times New Roman"></TextBlock>
+        <TextBlock Text="6" Grid.Row="3" Grid.Column="9" FontWeight="Bold" FontSize="30" VerticalAlignment="center" HorizontalAlignment="left" Margin="5" FontFamily="Times New Roman"></TextBlock>
+        <TextBlock Text="7" Grid.Row="2" Grid.Column="9" FontWeight="Bold" FontSize="30" VerticalAlignment="center" HorizontalAlignment="left" Margin="5" FontFamily="Times New Roman"></TextBlock>
+        <TextBlock Text="8" Grid.Row="1" Grid.Column="9" FontWeight="Bold" FontSize="30" VerticalAlignment="center" HorizontalAlignment="left" Margin="5" FontFamily="Times New Roman"></TextBlock>
+
+        <!--playable row 8-->
+        <Button x:Name ="a8" Grid.Row="1" Grid.Column="1" FontSize="16" Background="#cccccc" BorderThickness="2 2 0 0" BorderBrush="#0d0d0d" Click="SquareClick">
+            <StackPanel>
+                <Image x:Name="a8i" Width="60" Height="60" Source="/Romulus;component/images/b_rook.png"></Image>
+            </StackPanel>
+        </Button>
+        <Button x:Name ="b8" Grid.Row="1" Grid.Column="2" FontSize="16" Background="#666666" BorderThickness="0 2 0 0" BorderBrush="#0d0d0d" Click="SquareClick">
+            <StackPanel>
+                <Image x:Name="b8i"  Width="60" Height="60" Source="/Romulus;component/images/b_knight.png"></Image>
+            </StackPanel>
+        </Button>
+        <Button x:Name ="c8" Grid.Row="1" Grid.Column="3" FontSize="16" Background="#cccccc" BorderThickness="0 2 0 0" BorderBrush="#0d0d0d" Click="SquareClick">
+            <StackPanel>
+                <Image x:Name="c8i"  Width="60" Height="60" Source="/Romulus;component/images/b_bishop.png"></Image>
+            </StackPanel>
+        </Button>
+        <Button x:Name ="d8" Grid.Row="1" Grid.Column="4" FontSize="16" Background="#666666" BorderThickness="0 2 0 0" BorderBrush="#0d0d0d" Click="SquareClick">
+            <StackPanel>
+                <Image x:Name="d8i"  Width="60" Height="60" Source="/Romulus;component/images/b_queen.png"></Image>
+            </StackPanel>
+        </Button>
+        <Button x:Name ="e8" Grid.Row="1" Grid.Column="5" FontSize="16" Background="#cccccc" BorderThickness="0 2 0 0" BorderBrush="#0d0d0d" Click="SquareClick">
+            <StackPanel>
+                <Image  x:Name="e8i" Width="60" Height="60" Source="/Romulus;component/images/b_king.png"></Image>
+            </StackPanel>
+        </Button>
+        <Button x:Name ="f8" Grid.Row="1" Grid.Column="6" FontSize="16" Background="#666666" BorderThickness="0 2 0 0" BorderBrush="#0d0d0d" Click="SquareClick">
+            <StackPanel>
+                <Image x:Name="f8i"  Width="60" Height="60" Source="/Romulus;component/images/b_bishop.png"></Image>
+            </StackPanel>
+        </Button>
+        <Button x:Name ="g8" Grid.Row="1" Grid.Column="7" FontSize="16" Background="#cccccc" BorderThickness="0 2 0 0" BorderBrush="#0d0d0d" Click="SquareClick">
+            <StackPanel>
+                <Image x:Name="g8i"  Width="60" Height="60" Source="/Romulus;component/images/b_knight.png"></Image>
+            </StackPanel>
+        </Button>
+        <Button x:Name ="h8" Grid.Row="1" Grid.Column="8" FontSize="16" Background="#666666" BorderThickness="0 2 2 0" BorderBrush="#0d0d0d" Click="SquareClick">
+            <StackPanel>
+                <Image x:Name="h8i"  Width="60" Height="60" Source="/Romulus;component/images/b_rook.png"></Image>
+            </StackPanel>
+        </Button>
+
+        <!--playable row 7-->
+        <Button x:Name ="a7" Grid.Row="2" Grid.Column="1" FontSize="16" Background="#666666" BorderThickness="2 0 0 0" BorderBrush="#0d0d0d" Click="SquareClick">
+            <StackPanel>
+                <Image x:Name="a7i" Width="60" Height="60" Source="/Romulus;component/images/b_pawn.png"></Image>
+            </StackPanel>
+        </Button>
+        <Button x:Name ="b7" Grid.Row="2" Grid.Column="2" FontSize="16" Background="#cccccc" BorderThickness="0 0 0 0" BorderBrush="#0d0d0d" Click="SquareClick">
+            <StackPanel>
+                <Image x:Name="b7i" Width="60" Height="60" Source="/Romulus;component/images/b_pawn.png"></Image>
+            </StackPanel>
+        </Button>
+        <Button x:Name ="c7" Grid.Row="2" Grid.Column="3" FontSize="16" Background="#666666" BorderThickness="0 0 0 0" BorderBrush="#0d0d0d" Click="SquareClick">
+            <StackPanel>
+                <Image x:Name="c7i" Width="60" Height="60" Source="/Romulus;component/images/b_pawn.png"></Image>
+            </StackPanel>
+        </Button>
+        <Button x:Name ="d7" Grid.Row="2" Grid.Column="4" FontSize="16" Background="#cccccc" BorderThickness="0 0 0 0" BorderBrush="#0d0d0d" Click="SquareClick">
+            <StackPanel>
+                <Image x:Name="d7i" Width="60" Height="60" Source="/Romulus;component/images/b_pawn.png"></Image>
+            </StackPanel>
+        </Button>
+        <Button x:Name ="e7" Grid.Row="2" Grid.Column="5" FontSize="16" Background="#666666" BorderThickness="0 0 0 0" BorderBrush="#0d0d0d" Click="SquareClick">
+            <StackPanel>
+                <Image x:Name="e7i" Width="60" Height="60" Source="/Romulus;component/images/b_pawn.png"></Image>
+            </StackPanel>
+        </Button>
+        <Button x:Name ="f7" Grid.Row="2" Grid.Column="6" FontSize="16" Background="#cccccc" BorderThickness="0 0 0 0" BorderBrush="#0d0d0d" Click="SquareClick">
+            <StackPanel>
+                <Image x:Name="f7i" Width="60" Height="60" Source="/Romulus;component/images/b_pawn.png"></Image>
+            </StackPanel>
+        </Button>
+        <Button x:Name ="g7" Grid.Row="2" Grid.Column="7" FontSize="16" Background="#666666" BorderThickness="0 0 0 0" BorderBrush="#0d0d0d" Click="SquareClick">
+            <StackPanel>
+                <Image x:Name="g7i" Width="60" Height="60" Source="/Romulus;component/images/b_pawn.png"></Image>
+            </StackPanel>
+        </Button>
+        <Button x:Name ="h7" Grid.Row="2" Grid.Column="8" FontSize="16" Background="#cccccc" BorderThickness="0 0 2 0" BorderBrush="#0d0d0d" Click="SquareClick">
+            <StackPanel>
+                <Image x:Name="h7i" Width="60" Height="60" Source="/Romulus;component/images/b_pawn.png"></Image>
+            </StackPanel>
+        </Button>
+
+        <!--playable row 6-->
+        <Button x:Name ="a6" Grid.Row="3" Grid.Column="1" FontSize="16" Background="#cccccc" BorderThickness="2 0 0 0" BorderBrush="#0d0d0d" Click="SquareClick">
+            <StackPanel>
+                <Image x:Name="a6i" Width="60" Height="60"></Image>
+            </StackPanel>
+        </Button>
+        <Button x:Name ="b6" Grid.Row="3" Grid.Column="2" FontSize="16" Background="#666666" BorderThickness="0 0 0 0" BorderBrush="#0d0d0d" Click="SquareClick">
+            <StackPanel>
+                <Image x:Name="b6i" Width="60" Height="60"></Image>
+            </StackPanel>
+        </Button>
+        <Button x:Name ="c6" Grid.Row="3" Grid.Column="3" FontSize="16" Background="#cccccc" BorderThickness="0 0 0 0" BorderBrush="#0d0d0d" Click="SquareClick">
+            <StackPanel>
+                <Image x:Name="c6i" Width="60" Height="60"></Image>
+            </StackPanel>
+        </Button>
+        <Button x:Name ="d6" Grid.Row="3" Grid.Column="4" FontSize="16" Background="#666666" BorderThickness="0 0 0 0" BorderBrush="#0d0d0d" Click="SquareClick">
+            <StackPanel>
+                <Image x:Name="d6i" Width="60" Height="60"></Image>
+            </StackPanel>
+        </Button>
+        <Button x:Name ="e6" Grid.Row="3" Grid.Column="5" FontSize="16" Background="#cccccc" BorderThickness="0 0 0 0" BorderBrush="#0d0d0d" Click="SquareClick">
+            <StackPanel>
+                <Image x:Name="e6i" Width="60" Height="60"></Image>
+            </StackPanel>
+        </Button>
+        <Button x:Name ="f6" Grid.Row="3" Grid.Column="6" FontSize="16" Background="#666666" BorderThickness="0 0 0 0" BorderBrush="#0d0d0d" Click="SquareClick">
+            <StackPanel>
+                <Image x:Name="f6i" Width="60" Height="60"></Image>
+            </StackPanel>
+        </Button>
+        <Button x:Name ="g6" Grid.Row="3" Grid.Column="7" FontSize="16" Background="#cccccc" BorderThickness="0 0 0 0" BorderBrush="#0d0d0d" Click="SquareClick">
+            <StackPanel>
+                <Image x:Name="g6i" Width="60" Height="60"></Image>
+            </StackPanel>
+        </Button>
+        <Button x:Name ="h6" Grid.Row="3" Grid.Column="8" FontSize="16" Background="#666666" BorderThickness="0 0 2 0" BorderBrush="#0d0d0d" Click="SquareClick">
+            <StackPanel>
+                <Image x:Name="h6i" Width="60" Height="60"></Image>
+            </StackPanel>
+        </Button>
+
+        <!--playable row 5-->
+        <Button x:Name ="a5" Grid.Row="4" Grid.Column="1" FontSize="16" Background="#666666" BorderThickness="2 0 0 0" BorderBrush="#0d0d0d" Click="SquareClick">
+            <StackPanel>
+                <Image x:Name="a5i" Width="60" Height="60"></Image>
+            </StackPanel>
+        </Button>
+        <Button x:Name ="b5" Grid.Row="4" Grid.Column="2" FontSize="16" Background="#cccccc" BorderThickness="0 0 0 0" BorderBrush="#0d0d0d" Click="SquareClick">
+            <StackPanel>
+                <Image x:Name="b5i" Width="60" Height="60"></Image>
+            </StackPanel>
+        </Button>
+        <Button x:Name ="c5" Grid.Row="4" Grid.Column="3" FontSize="16" Background="#666666" BorderThickness="0 0 0 0" BorderBrush="#0d0d0d" Click="SquareClick">
+            <StackPanel>
+                <Image x:Name="c5i" Width="60" Height="60"></Image>
+            </StackPanel>
+        </Button>
+        <Button x:Name ="d5" Grid.Row="4" Grid.Column="4" FontSize="16" Background="#cccccc" BorderThickness="0 0 0 0" BorderBrush="#0d0d0d" Click="SquareClick">
+            <StackPanel>
+                <Image x:Name="d5i" Width="60" Height="60"></Image>
+            </StackPanel>
+        </Button>
+        <Button x:Name ="e5" Grid.Row="4" Grid.Column="5" FontSize="16" Background="#666666" BorderThickness="0 0 0 0" BorderBrush="#0d0d0d" Click="SquareClick">
+            <StackPanel>
+                <Image x:Name="e5i" Width="60" Height="60"></Image>
+            </StackPanel>
+        </Button>
+        <Button x:Name ="f5" Grid.Row="4" Grid.Column="6" FontSize="16" Background="#cccccc" BorderThickness="0 0 0 0" BorderBrush="#0d0d0d" Click="SquareClick">
+            <StackPanel>
+                <Image x:Name="f5i" Width="60" Height="60"></Image>
+            </StackPanel>
+        </Button>
+        <Button x:Name ="g5" Grid.Row="4" Grid.Column="7" FontSize="16" Background="#666666" BorderThickness="0 0 0 0" BorderBrush="#0d0d0d" Click="SquareClick">
+            <StackPanel>
+                <Image x:Name="g5i" Width="60" Height="60"></Image>
+            </StackPanel>
+        </Button>
+        <Button x:Name ="h5" Grid.Row="4" Grid.Column="8" FontSize="16" Background="#cccccc" BorderThickness="0 0 2 0" BorderBrush="#0d0d0d" Click="SquareClick">
+            <StackPanel>
+                <Image x:Name="h5i" Width="60" Height="60"></Image>
+            </StackPanel>
+        </Button>
+
+        <!--playable row 4-->
+        <Button x:Name ="a4" Grid.Row="5" Grid.Column="1" FontSize="16" Background="#cccccc" BorderThickness="2 0 0 0" BorderBrush="#0d0d0d" Click="SquareClick">
+            <StackPanel>
+                <Image x:Name="a4i" Width="60" Height="60"></Image>
+            </StackPanel>
+        </Button>
+        <Button x:Name ="b4" Grid.Row="5" Grid.Column="2" FontSize="16" Background="#666666" BorderThickness="0 0 0 0" BorderBrush="#0d0d0d" Click="SquareClick">
+            <StackPanel>
+                <Image x:Name="b4i" Width="60" Height="60"></Image>
+            </StackPanel>
+        </Button>
+        <Button x:Name ="c4" Grid.Row="5" Grid.Column="3" FontSize="16" Background="#cccccc" BorderThickness="0 0 0 0" BorderBrush="#0d0d0d" Click="SquareClick">
+            <StackPanel>
+                <Image x:Name="c4i" Width="60" Height="60"></Image>
+            </StackPanel>
+        </Button>
+        <Button x:Name ="d4" Grid.Row="5" Grid.Column="4" FontSize="16" Background="#666666" BorderThickness="0 0 0 0" BorderBrush="#0d0d0d" Click="SquareClick">
+            <StackPanel>
+                <Image x:Name="d4i" Width="60" Height="60"></Image>
+            </StackPanel>
+        </Button>
+        <Button x:Name ="e4" Grid.Row="5" Grid.Column="5" FontSize="16" Background="#cccccc" BorderThickness="0 0 0 0" BorderBrush="#0d0d0d" Click="SquareClick">
+            <StackPanel>
+                <Image x:Name="e4i" Width="60" Height="60"></Image>
+            </StackPanel>
+        </Button>
+        <Button x:Name ="f4" Grid.Row="5" Grid.Column="6" FontSize="16" Background="#666666" BorderThickness="0 0 0 0" BorderBrush="#0d0d0d" Click="SquareClick">
+            <StackPanel>
+                <Image x:Name="f4i" Width="60" Height="60"></Image>
+            </StackPanel>
+        </Button>
+        <Button x:Name ="g4" Grid.Row="5" Grid.Column="7" FontSize="16" Background="#cccccc" BorderThickness="0 0 0 0" BorderBrush="#0d0d0d" Click="SquareClick">
+            <StackPanel>
+                <Image x:Name="g4i" Width="60" Height="60"></Image>
+            </StackPanel>
+        </Button>
+        <Button x:Name ="h4" Grid.Row="5" Grid.Column="8" FontSize="16" Background="#666666" BorderThickness="0 0 2 0" BorderBrush="#0d0d0d" Click="SquareClick">
+            <StackPanel>
+                <Image x:Name="h4i" Width="60" Height="60"></Image>
+            </StackPanel>
+        </Button>
+
+        <!--playable row 3-->
+        <Button x:Name ="a3" Grid.Row="6" Grid.Column="1" FontSize="16" Background="#666666" BorderThickness="2 0 0 0" BorderBrush="#0d0d0d" Click="SquareClick">
+            <StackPanel>
+                <Image x:Name="a3i" Width="60" Height="60"></Image>
+            </StackPanel>
+        </Button>
+        <Button x:Name ="b3" Grid.Row="6" Grid.Column="2" FontSize="16" Background="#cccccc" BorderThickness="0 0 0 0" BorderBrush="#0d0d0d" Click="SquareClick">
+            <StackPanel>
+                <Image x:Name="b3i" Width="60" Height="60"></Image>
+            </StackPanel>
+        </Button>
+        <Button x:Name ="c3" Grid.Row="6" Grid.Column="3" FontSize="16" Background="#666666" BorderThickness="0 0 0 0" BorderBrush="#0d0d0d" Click="SquareClick">
+            <StackPanel>
+                <Image x:Name="c3i" Width="60" Height="60"></Image>
+            </StackPanel>
+        </Button>
+        <Button x:Name ="d3" Grid.Row="6" Grid.Column="4" FontSize="16" Background="#cccccc" BorderThickness="0 0 0 0" BorderBrush="#0d0d0d" Click="SquareClick">
+            <StackPanel>
+                <Image x:Name="d3i" Width="60" Height="60"></Image>
+            </StackPanel>
+        </Button>
+        <Button x:Name ="e3" Grid.Row="6" Grid.Column="5" FontSize="16" Background="#666666" BorderThickness="0 0 0 0" BorderBrush="#0d0d0d" Click="SquareClick">
+            <StackPanel>
+                <Image x:Name="e3i" Width="60" Height="60"></Image>
+            </StackPanel>
+        </Button>
+        <Button x:Name ="f3" Grid.Row="6" Grid.Column="6" FontSize="16" Background="#cccccc" BorderThickness="0 0 0 0" BorderBrush="#0d0d0d" Click="SquareClick">
+            <StackPanel>
+                <Image x:Name="f3i" Width="60" Height="60"></Image>
+            </StackPanel>
+        </Button>
+        <Button x:Name ="g3" Grid.Row="6" Grid.Column="7" FontSize="16" Background="#666666" BorderThickness="0 0 0 0" BorderBrush="#0d0d0d" Click="SquareClick">
+            <StackPanel>
+                <Image x:Name="g3i" Width="60" Height="60"></Image>
+            </StackPanel>
+        </Button>
+        <Button x:Name ="h3" Grid.Row="6" Grid.Column="8" FontSize="16" Background="#cccccc" BorderThickness="0 0 2 0" BorderBrush="#0d0d0d" Click="SquareClick">
+            <StackPanel>
+                <Image x:Name="h3i" Width="60" Height="60"></Image>
+            </StackPanel>
+        </Button>
+
+        <!--playable row 2-->
+        <Button x:Name ="a2" Grid.Row="7" Grid.Column="1" FontSize="16" Background="#cccccc" BorderThickness="2 0 0 0" BorderBrush="#0d0d0d" Click="SquareClick">
+            <StackPanel>
+                <Image x:Name="a2i" Width="60" Height="60" Source="/Romulus;component/images/w_pawn.png"></Image>
+            </StackPanel>
+        </Button>
+        <Button x:Name ="b2" Grid.Row="7" Grid.Column="2" FontSize="16" Background="#666666" BorderThickness="0 0 0 0" BorderBrush="#0d0d0d" Click="SquareClick">
+            <StackPanel>
+                <Image x:Name="b2i" Width="60" Height="60" Source="/Romulus;component/images/w_pawn.png"></Image>
+            </StackPanel>
+        </Button>
+        <Button x:Name ="c2" Grid.Row="7" Grid.Column="3" FontSize="16" Background="#cccccc" BorderThickness="0 0 0 0" BorderBrush="#0d0d0d" Click="SquareClick">
+            <StackPanel>
+                <Image x:Name="c2i" Width="60" Height="60" Source="/Romulus;component/images/w_pawn.png"></Image>
+            </StackPanel>
+        </Button>
+        <Button x:Name ="d2" Grid.Row="7" Grid.Column="4" FontSize="16" Background="#666666" BorderThickness="0 0 0 0" BorderBrush="#0d0d0d" Click="SquareClick">
+            <StackPanel>
+                <Image x:Name="d2i" Width="60" Height="60" Source="/Romulus;component/images/w_pawn.png"></Image>
+            </StackPanel>
+        </Button>
+        <Button x:Name ="e2" Grid.Row="7" Grid.Column="5" FontSize="16" Background="#cccccc" BorderThickness="0 0 0 0" BorderBrush="#0d0d0d" Click="SquareClick">
+            <StackPanel>
+                <Image x:Name="e2i" Width="60" Height="60" Source="/Romulus;component/images/w_pawn.png"></Image>
+            </StackPanel>
+        </Button>
+        <Button x:Name ="f2" Grid.Row="7" Grid.Column="6" FontSize="16" Background="#666666" BorderThickness="0 0 0 0" BorderBrush="#0d0d0d" Click="SquareClick">
+            <StackPanel>
+                <Image x:Name="f2i" Width="60" Height="60" Source="/Romulus;component/images/w_pawn.png"></Image>
+            </StackPanel>
+        </Button>
+        <Button x:Name ="g2" Grid.Row="7" Grid.Column="7" FontSize="16" Background="#cccccc" BorderThickness="0 0 0 0" BorderBrush="#0d0d0d" Click="SquareClick">
+            <StackPanel>
+                <Image x:Name="g2i" Width="60" Height="60" Source="/Romulus;component/images/w_pawn.png"></Image>
+            </StackPanel>
+        </Button>
+        <Button x:Name ="h2" Grid.Row="7" Grid.Column="8" FontSize="16" Background="#666666" BorderThickness="0 0 2 0" BorderBrush="#0d0d0d" Click="SquareClick">
+            <StackPanel>
+                <Image x:Name="h2i" Width="60" Height="60" Source="/Romulus;component/images/w_pawn.png"></Image>
+            </StackPanel>
+        </Button>
+
+        <!--playable row 1-->
+        <Button x:Name ="a1" Grid.Row="8" Grid.Column="1" FontSize="16" Background="#666666" BorderThickness="2 0 0 2" BorderBrush="#0d0d0d" Click="SquareClick">
+            <StackPanel>
+                <Image x:Name="a1i" Width="60" Height="60" Source="/Romulus;component/images/w_rook.png"></Image>
+            </StackPanel>
+        </Button>
+        <Button x:Name ="b1" Grid.Row="8" Grid.Column="2" FontSize="16" Background="#cccccc" BorderThickness="0 0 0 2" BorderBrush="#0d0d0d" Click="SquareClick">
+            <StackPanel>
+                <Image x:Name="b1i" Width="60" Height="60" Source="/Romulus;component/images/w_knight.png"></Image>
+            </StackPanel>
+        </Button>
+        <Button x:Name ="c1" Grid.Row="8" Grid.Column="3" FontSize="16" Background="#666666" BorderThickness="0 0 0 2" BorderBrush="#0d0d0d" Click="SquareClick">
+            <StackPanel>
+                <Image x:Name="c1i" Width="60" Height="60" Source="/Romulus;component/images/w_bishop.png"></Image>
+            </StackPanel>
+        </Button>
+        <Button x:Name ="d1" Grid.Row="8" Grid.Column="4" FontSize="16" Background="#cccccc" BorderThickness="0 0 0 2" BorderBrush="#0d0d0d" Click="SquareClick">
+            <StackPanel>
+                <Image x:Name="d1i" Width="60" Height="60" Source="/Romulus;component/images/w_queen.png"></Image>
+            </StackPanel>
+        </Button>
+        <Button x:Name ="e1" Grid.Row="8" Grid.Column="5" FontSize="16" Background="#666666" BorderThickness="0 0 0 2" BorderBrush="#0d0d0d" Click="SquareClick">
+            <StackPanel>
+                <Image x:Name="e1i" Width="60" Height="60" Source="/Romulus;component/images/w_king.png"></Image>
+            </StackPanel>
+        </Button>
+        <Button x:Name ="f1" Grid.Row="8" Grid.Column="6" FontSize="16" Background="#cccccc" BorderThickness="0 0 0 2" BorderBrush="#0d0d0d" Click="SquareClick">
+            <StackPanel>
+                <Image x:Name="f1i" Width="60" Height="60" Source="/Romulus;component/images/w_bishop.png"></Image>
+            </StackPanel>
+        </Button>
+        <Button x:Name ="g1" Grid.Row="8" Grid.Column="7" FontSize="16" Background="#666666" BorderThickness="0 0 0 2" BorderBrush="#0d0d0d" Click="SquareClick">
+            <StackPanel>
+                <Image x:Name="g1i" Width="60" Height="60" Source="/Romulus;component/images/w_knight.png"></Image>
+            </StackPanel>
+        </Button>
+        <Button x:Name ="h1" Grid.Row="8" Grid.Column="8" FontSize="16" Background="#cccccc" BorderThickness="0 0 2 2" BorderBrush="#0d0d0d" Click="SquareClick">
+            <StackPanel>
+                <Image x:Name="h1i" Width="60" Height="60" Source="/Romulus;component/images/w_rook.png"></Image>
+            </StackPanel>
+        </Button>
+    </Grid>
+</Window>
