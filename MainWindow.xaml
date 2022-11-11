@@ -5,21 +5,23 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-x:Namespace:Romulus"
         mc:Ignorable="d"
-        Title="MainWindow" Height="800" Width="800">
+        Title="MainWindow" Height="800" Width="1000">
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition />
-            <ColumnDefinition />
-            <ColumnDefinition />
-            <ColumnDefinition />
-            <ColumnDefinition />
-            <ColumnDefinition />
-            <ColumnDefinition />
-            <ColumnDefinition />
-            <ColumnDefinition />
-            <ColumnDefinition />
+            <ColumnDefinition Width="40px"></ColumnDefinition>
+            <ColumnDefinition Width="80px"></ColumnDefinition>
+            <ColumnDefinition Width="80px"></ColumnDefinition>
+            <ColumnDefinition Width="80px"></ColumnDefinition>
+            <ColumnDefinition Width="80px"></ColumnDefinition>
+            <ColumnDefinition Width="80px"></ColumnDefinition>
+            <ColumnDefinition Width="80px"></ColumnDefinition>
+            <ColumnDefinition Width="80px"></ColumnDefinition>
+            <ColumnDefinition Width="80px"></ColumnDefinition>
+            <ColumnDefinition Width="40px"></ColumnDefinition>
+            <ColumnDefinition Width="300px"></ColumnDefinition>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
+            <RowDefinition Height="40px"></RowDefinition>
             <RowDefinition />
             <RowDefinition />
             <RowDefinition />
@@ -28,49 +30,48 @@
             <RowDefinition />
             <RowDefinition />
             <RowDefinition />
-            <RowDefinition />
-            <RowDefinition />
+            <RowDefinition Height="40px"></RowDefinition>
         </Grid.RowDefinitions>
 
         <!--top lettering-->
-        <TextBlock Text="a" Grid.Row="0" Grid.Column="1" FontWeight="Bold" FontSize="30" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="5" FontFamily="Times New Roman"></TextBlock>
-        <TextBlock Text="b" Grid.Row="0" Grid.Column="2" FontWeight="Bold" FontSize="30" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="5" FontFamily="Times New Roman"></TextBlock>
-        <TextBlock Text="c" Grid.Row="0" Grid.Column="3" FontWeight="Bold" FontSize="30" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="5" FontFamily="Times New Roman"></TextBlock>
-        <TextBlock Text="d" Grid.Row="0" Grid.Column="4" FontWeight="Bold" FontSize="30" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="5" FontFamily="Times New Roman"></TextBlock>
-        <TextBlock Text="e" Grid.Row="0" Grid.Column="5" FontWeight="Bold" FontSize="30" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="5" FontFamily="Times New Roman"></TextBlock>
-        <TextBlock Text="f" Grid.Row="0" Grid.Column="6" FontWeight="Bold" FontSize="30" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="5" FontFamily="Times New Roman"></TextBlock>
-        <TextBlock Text="g" Grid.Row="0" Grid.Column="7" FontWeight="Bold" FontSize="30" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="5" FontFamily="Times New Roman"></TextBlock>
-        <TextBlock Text="h" Grid.Row="0" Grid.Column="8" FontWeight="Bold" FontSize="30" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="5" FontFamily="Times New Roman"></TextBlock>
+        <TextBlock Text="a" Grid.Row="0" Grid.Column="1" FontWeight="Bold" FontSize="30" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="5" FontFamily="Arial Bold"></TextBlock>
+        <TextBlock Text="b" Grid.Row="0" Grid.Column="2" FontWeight="Bold" FontSize="30" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="5" FontFamily="Arial Bold"></TextBlock>
+        <TextBlock Text="c" Grid.Row="0" Grid.Column="3" FontWeight="Bold" FontSize="30" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="5" FontFamily="Arial Bold"></TextBlock>
+        <TextBlock Text="d" Grid.Row="0" Grid.Column="4" FontWeight="Bold" FontSize="30" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="5" FontFamily="Arial Bold"></TextBlock>
+        <TextBlock Text="e" Grid.Row="0" Grid.Column="5" FontWeight="Bold" FontSize="30" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="5" FontFamily="Arial Bold"></TextBlock>
+        <TextBlock Text="f" Grid.Row="0" Grid.Column="6" FontWeight="Bold" FontSize="30" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="5" FontFamily="Arial Bold"></TextBlock>
+        <TextBlock Text="g" Grid.Row="0" Grid.Column="7" FontWeight="Bold" FontSize="30" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="5" FontFamily="Arial Bold"></TextBlock>
+        <TextBlock Text="h" Grid.Row="0" Grid.Column="8" FontWeight="Bold" FontSize="30" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="5" FontFamily="Arial Bold"></TextBlock>
 
         <!--bottom lettering-->
-        <TextBlock Text="a" Grid.Row="9" Grid.Column="1" FontWeight="Bold" FontSize="30" VerticalAlignment="top" HorizontalAlignment="Center" Margin="5" FontFamily="Times New Roman"></TextBlock>
-        <TextBlock Text="b" Grid.Row="9" Grid.Column="2" FontWeight="Bold" FontSize="30" VerticalAlignment="top" HorizontalAlignment="Center" Margin="5" FontFamily="Times New Roman"></TextBlock>
-        <TextBlock Text="c" Grid.Row="9" Grid.Column="3" FontWeight="Bold" FontSize="30" VerticalAlignment="top" HorizontalAlignment="Center" Margin="5" FontFamily="Times New Roman"></TextBlock>
-        <TextBlock Text="d" Grid.Row="9" Grid.Column="4" FontWeight="Bold" FontSize="30" VerticalAlignment="top" HorizontalAlignment="Center" Margin="5" FontFamily="Times New Roman"></TextBlock>
-        <TextBlock Text="e" Grid.Row="9" Grid.Column="5" FontWeight="Bold" FontSize="30" VerticalAlignment="top" HorizontalAlignment="Center" Margin="5" FontFamily="Times New Roman"></TextBlock>
-        <TextBlock Text="f" Grid.Row="9" Grid.Column="6" FontWeight="Bold" FontSize="30" VerticalAlignment="top" HorizontalAlignment="Center" Margin="5" FontFamily="Times New Roman"></TextBlock>
-        <TextBlock Text="g" Grid.Row="9" Grid.Column="7" FontWeight="Bold" FontSize="30" VerticalAlignment="top" HorizontalAlignment="Center" Margin="5" FontFamily="Times New Roman"></TextBlock>
-        <TextBlock Text="h" Grid.Row="9" Grid.Column="8" FontWeight="Bold" FontSize="30" VerticalAlignment="top" HorizontalAlignment="Center" Margin="5" FontFamily="Times New Roman"></TextBlock>
+        <TextBlock Text="a" Grid.Row="9" Grid.Column="1" FontWeight="Bold" FontSize="30" VerticalAlignment="top" HorizontalAlignment="Center" Margin="5" FontFamily="Arial Bold"></TextBlock>
+        <TextBlock Text="b" Grid.Row="9" Grid.Column="2" FontWeight="Bold" FontSize="30" VerticalAlignment="top" HorizontalAlignment="Center" Margin="5" FontFamily="Arial Bold"></TextBlock>
+        <TextBlock Text="c" Grid.Row="9" Grid.Column="3" FontWeight="Bold" FontSize="30" VerticalAlignment="top" HorizontalAlignment="Center" Margin="5" FontFamily="Arial Bold"></TextBlock>
+        <TextBlock Text="d" Grid.Row="9" Grid.Column="4" FontWeight="Bold" FontSize="30" VerticalAlignment="top" HorizontalAlignment="Center" Margin="5" FontFamily="Arial Bold"></TextBlock>
+        <TextBlock Text="e" Grid.Row="9" Grid.Column="5" FontWeight="Bold" FontSize="30" VerticalAlignment="top" HorizontalAlignment="Center" Margin="5" FontFamily="Arial Bold"></TextBlock>
+        <TextBlock Text="f" Grid.Row="9" Grid.Column="6" FontWeight="Bold" FontSize="30" VerticalAlignment="top" HorizontalAlignment="Center" Margin="5" FontFamily="Arial Bold"></TextBlock>
+        <TextBlock Text="g" Grid.Row="9" Grid.Column="7" FontWeight="Bold" FontSize="30" VerticalAlignment="top" HorizontalAlignment="Center" Margin="5" FontFamily="Arial Bold"></TextBlock>
+        <TextBlock Text="h" Grid.Row="9" Grid.Column="8" FontWeight="Bold" FontSize="30" VerticalAlignment="top" HorizontalAlignment="Center" Margin="5" FontFamily="Arial Bold"></TextBlock>
 
         <!--left numbering-->
-        <TextBlock Text="1" Grid.Row="8" Grid.Column="0" FontWeight="Bold" FontSize="30" VerticalAlignment="center" HorizontalAlignment="right" Margin="5" FontFamily="Times New Roman"></TextBlock>
-        <TextBlock Text="2" Grid.Row="7" Grid.Column="0" FontWeight="Bold" FontSize="30" VerticalAlignment="center" HorizontalAlignment="right" Margin="5" FontFamily="Times New Roman"></TextBlock>
-        <TextBlock Text="3" Grid.Row="6" Grid.Column="0" FontWeight="Bold" FontSize="30" VerticalAlignment="center" HorizontalAlignment="right" Margin="5" FontFamily="Times New Roman"></TextBlock>
-        <TextBlock Text="4" Grid.Row="5" Grid.Column="0" FontWeight="Bold" FontSize="30" VerticalAlignment="center" HorizontalAlignment="right" Margin="5" FontFamily="Times New Roman"></TextBlock>
-        <TextBlock Text="5" Grid.Row="4" Grid.Column="0" FontWeight="Bold" FontSize="30" VerticalAlignment="center" HorizontalAlignment="right" Margin="5" FontFamily="Times New Roman"></TextBlock>
-        <TextBlock Text="6" Grid.Row="3" Grid.Column="0" FontWeight="Bold" FontSize="30" VerticalAlignment="center" HorizontalAlignment="right" Margin="5" FontFamily="Times New Roman"></TextBlock>
-        <TextBlock Text="7" Grid.Row="2" Grid.Column="0" FontWeight="Bold" FontSize="30" VerticalAlignment="center" HorizontalAlignment="right" Margin="5" FontFamily="Times New Roman"></TextBlock>
-        <TextBlock Text="8" Grid.Row="1" Grid.Column="0" FontWeight="Bold" FontSize="30" VerticalAlignment="center" HorizontalAlignment="right" Margin="5" FontFamily="Times New Roman"></TextBlock>
+        <TextBlock Text="1" Grid.Row="8" Grid.Column="0" FontWeight="Bold" FontSize="30" VerticalAlignment="center" HorizontalAlignment="right" Margin="5" FontFamily="Arial Bold"></TextBlock>
+        <TextBlock Text="2" Grid.Row="7" Grid.Column="0" FontWeight="Bold" FontSize="30" VerticalAlignment="center" HorizontalAlignment="right" Margin="5" FontFamily="Arial Bold"></TextBlock>
+        <TextBlock Text="3" Grid.Row="6" Grid.Column="0" FontWeight="Bold" FontSize="30" VerticalAlignment="center" HorizontalAlignment="right" Margin="5" FontFamily="Arial Bold"></TextBlock>
+        <TextBlock Text="4" Grid.Row="5" Grid.Column="0" FontWeight="Bold" FontSize="30" VerticalAlignment="center" HorizontalAlignment="right" Margin="5" FontFamily="Arial Bold"></TextBlock>
+        <TextBlock Text="5" Grid.Row="4" Grid.Column="0" FontWeight="Bold" FontSize="30" VerticalAlignment="center" HorizontalAlignment="right" Margin="5" FontFamily="Arial Bold"></TextBlock>
+        <TextBlock Text="6" Grid.Row="3" Grid.Column="0" FontWeight="Bold" FontSize="30" VerticalAlignment="center" HorizontalAlignment="right" Margin="5" FontFamily="Arial Bold"></TextBlock>
+        <TextBlock Text="7" Grid.Row="2" Grid.Column="0" FontWeight="Bold" FontSize="30" VerticalAlignment="center" HorizontalAlignment="right" Margin="5" FontFamily="Arial Bold"></TextBlock>
+        <TextBlock Text="8" Grid.Row="1" Grid.Column="0" FontWeight="Bold" FontSize="30" VerticalAlignment="center" HorizontalAlignment="right" Margin="5" FontFamily="Arial Bold"></TextBlock>
 
         <!--right numbering-->
-        <TextBlock Text="1" Grid.Row="8" Grid.Column="9" FontWeight="Bold" FontSize="30" VerticalAlignment="center" HorizontalAlignment="left" Margin="5" FontFamily="Times New Roman"></TextBlock>
-        <TextBlock Text="2" Grid.Row="7" Grid.Column="9" FontWeight="Bold" FontSize="30" VerticalAlignment="center" HorizontalAlignment="left" Margin="5" FontFamily="Times New Roman"></TextBlock>
-        <TextBlock Text="3" Grid.Row="6" Grid.Column="9" FontWeight="Bold" FontSize="30" VerticalAlignment="center" HorizontalAlignment="left" Margin="5" FontFamily="Times New Roman"></TextBlock>
-        <TextBlock Text="4" Grid.Row="5" Grid.Column="9" FontWeight="Bold" FontSize="30" VerticalAlignment="center" HorizontalAlignment="left" Margin="5" FontFamily="Times New Roman"></TextBlock>
-        <TextBlock Text="5" Grid.Row="4" Grid.Column="9" FontWeight="Bold" FontSize="30" VerticalAlignment="center" HorizontalAlignment="left" Margin="5" FontFamily="Times New Roman"></TextBlock>
-        <TextBlock Text="6" Grid.Row="3" Grid.Column="9" FontWeight="Bold" FontSize="30" VerticalAlignment="center" HorizontalAlignment="left" Margin="5" FontFamily="Times New Roman"></TextBlock>
-        <TextBlock Text="7" Grid.Row="2" Grid.Column="9" FontWeight="Bold" FontSize="30" VerticalAlignment="center" HorizontalAlignment="left" Margin="5" FontFamily="Times New Roman"></TextBlock>
-        <TextBlock Text="8" Grid.Row="1" Grid.Column="9" FontWeight="Bold" FontSize="30" VerticalAlignment="center" HorizontalAlignment="left" Margin="5" FontFamily="Times New Roman"></TextBlock>
+        <TextBlock Text="1" Grid.Row="8" Grid.Column="9" FontWeight="Bold" FontSize="30" VerticalAlignment="center" HorizontalAlignment="left" Margin="5" FontFamily="Arial Bold"></TextBlock>
+        <TextBlock Text="2" Grid.Row="7" Grid.Column="9" FontWeight="Bold" FontSize="30" VerticalAlignment="center" HorizontalAlignment="left" Margin="5" FontFamily="Arial Bold"></TextBlock>
+        <TextBlock Text="3" Grid.Row="6" Grid.Column="9" FontWeight="Bold" FontSize="30" VerticalAlignment="center" HorizontalAlignment="left" Margin="5" FontFamily="Arial Bold"></TextBlock>
+        <TextBlock Text="4" Grid.Row="5" Grid.Column="9" FontWeight="Bold" FontSize="30" VerticalAlignment="center" HorizontalAlignment="left" Margin="5" FontFamily="Arial Bold"></TextBlock>
+        <TextBlock Text="5" Grid.Row="4" Grid.Column="9" FontWeight="Bold" FontSize="30" VerticalAlignment="center" HorizontalAlignment="left" Margin="5" FontFamily="Arial Bold"></TextBlock>
+        <TextBlock Text="6" Grid.Row="3" Grid.Column="9" FontWeight="Bold" FontSize="30" VerticalAlignment="center" HorizontalAlignment="left" Margin="5" FontFamily="Arial Bold"></TextBlock>
+        <TextBlock Text="7" Grid.Row="2" Grid.Column="9" FontWeight="Bold" FontSize="30" VerticalAlignment="center" HorizontalAlignment="left" Margin="5" FontFamily="Arial Bold"></TextBlock>
+        <TextBlock Text="8" Grid.Row="1" Grid.Column="9" FontWeight="Bold" FontSize="30" VerticalAlignment="center" HorizontalAlignment="left" Margin="5" FontFamily="Arial Bold"></TextBlock>
 
         <!--playable row 8-->
         <Button x:Name ="a8" Grid.Row="1" Grid.Column="1" FontSize="16" Background="#cccccc" BorderThickness="2 2 0 0" BorderBrush="#0d0d0d" Click="SquareClick">
@@ -407,5 +408,6 @@
                 <Image x:Name="h1i" Width="60" Height="60" Source="/Romulus;component/images/w_rook.png"></Image>
             </StackPanel>
         </Button>
+        <TextBox Grid.Row="0" Grid.Column="10" BorderBrush="#cccccc" FontFamily="Arial Bold" FontSize="20" Width="250px" BorderThickness="0 0 0 2" HorizontalContentAlignment="Center" VerticalAlignment="Bottom" IsReadOnly="True" Margin="0,0,25,0">OUTPUT</TextBox>
     </Grid>
 </Window>
